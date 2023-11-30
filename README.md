@@ -10,17 +10,19 @@ I have previous experience using git and github as i have worked in a group envi
 
 ### Use Case Diagram
 
-![uml-laundry-usecase-diagram](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/blob/main/UML/Exported%20Images/Activity.png)
+![uml-laundry-usecase-diagram](UML/Exported%20Images/Class.png)
 
 ### Activity Diagram
 
-![uml-laundry-activity-diagram](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/blob/main/UML/Exported%20Images/Activity.png)
+![uml-laundry-activity-diagram](/UML/Exported%20Images/Activity.png)
 
 ### Class Diagram
 
-![uml-laundry-activity-diagram](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/blob/main/UML/Exported%20Images/Class.jpg)
+![uml-laundry-class-diagram](/UML/Exported%20Images/Class.png)
 
-## 3. DDD
+## 3. Domain Driven Design DDD
+
+![dd-coreDoamin-diagram](DDD/ddd.png)
 
 ## 4. Metrics (Sonarcube)
 
@@ -29,16 +31,21 @@ In my experince the setup is diffuclut to follow
 
 ## 5. Clean Code Development
 
-## 6. Build Managemen
+## 6. Build management
 
 ## 7. Continuous Delivery (GitHub Action)
+
+[CD](/.github/workflows/CD.yml) : workflow to deploy the build to my windowns server
 
 ## 8. Unit tests
 
 ## 9. IDE
 
-I have been using VS code as the main IDE for all types of development 
-provides all types of extensions
+I have been using VS code as the main IDE for all types of development. It provides extensions which makes it easy to use 
+
+Fav ShortCut
+1. crt+f : for fast search and getting a count for how many places we have used function etc..
+1. shift+option+f : quickly format the code structure
 
 ## 10. DSL
 
