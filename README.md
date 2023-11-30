@@ -1,1 +1,1 @@
-# Laundry-Management-MaxLaundry-
+# Laundry-Management-MaxLaundry
