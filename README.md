@@ -26,8 +26,14 @@ I have previous experience using git and github as i have worked in a group envi
 
 ## 4. Metrics (Sonarcube)
 
-I have finished setting up Sonarcube and config into the project 
-In my experince the setup is diffuclut to follow 
+I have finished setting up Sonarcube in docker and config into the project 
+In my experince the setup is diffuclut to follow
+
+I wasnt able the configer Sonarcube in my project. I instated used sonarCloud as an alternative integarted with github workflow pipelines
+
+![first-scan](ScreenShots/Sonarcloud first_analysis 2024-03-03 at 10.57.44 AM.png)
+First Scan
+
 
 ## 5. Clean Code Development
 
