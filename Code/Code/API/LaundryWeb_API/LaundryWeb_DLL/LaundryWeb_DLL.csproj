@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{789EB344-6E45-4EE6-A0DD-190D4D771DF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LaundryWeb_DLL</RootNamespace>
+    <AssemblyName>LaundryWeb_DLL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuditLogDLL.cs" />
+    <Compile Include="BookingDLL.cs" />
+    <Compile Include="CategoryDLL.cs" />
+    <Compile Include="ChangePasswordDLL.cs" />
+    <Compile Include="CompanyDLL.cs" />
+    <Compile Include="CorporateAccountDLL.cs" />
+    <Compile Include="CorporateCustomerDLL.cs" />
+    <Compile Include="CustomerDLL.cs" />
+    <Compile Include="DashboardDLL.cs" />
+    <Compile Include="DBHelper\DataTableEntensions.cs" />
+    <Compile Include="DBHelper\DBHelper.cs" />
+    <Compile Include="DBHelper\ListExtensions.cs" />
+    <Compile Include="GarmentServiceDLL.cs" />
+    <Compile Include="GarmentTypeDLL.cs" />
+    <Compile Include="InvoiceDLL.cs" />
+    <Compile Include="ItemHistoryDLL.cs" />
+    <Compile Include="ItemsDLL.cs" />
+    <Compile Include="LocationsDLL.cs" />
+    <Compile Include="LoginDLL.cs" />
+    <Compile Include="OrderDetailsDLL.cs" />
+    <Compile Include="OrdersDLL.cs" />
+    <Compile Include="PaymentsDLL.cs" />
+    <Compile Include="PaytermsDLL.cs" />
+    <Compile Include="PriceListDLL.cs" />
+    <Compile Include="PromotionLocationDLL.cs" />
+    <Compile Include="PromotionsDLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterDLL.cs" />
+    <Compile Include="ReportLogDLL.cs" />
+    <Compile Include="RFIDReadersDLL.cs" />
+    <Compile Include="ServicesDLL.cs" />
+    <Compile Include="StatusMasterDLL.cs" />
+    <Compile Include="TblAccessDLL.cs" />
+    <Compile Include="TblAppPrefsDLL.cs" />
+    <Compile Include="TblRoleDetailsDLL.cs" />
+    <Compile Include="TblRoleDLL.cs" />
+    <Compile Include="TblUserDLL.cs" />
+    <Compile Include="UpdateCustomerProfileDLL.cs" />
+    <Compile Include="UserCompanyDLL.cs" />
+    <Compile Include="UserLocationDLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LaundryWeb_MetaData\LaundryWeb_MetaData.csproj">
+      <Project>{88acf950-5a0d-4809-92c7-9cc98fe0bf6b}</Project>
+      <Name>LaundryWeb_MetaData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,92 @@
+<!--
+  Generated template for the BookAppointmentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Book appointment</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form #bookingForm = "ngForm">
+        <ion-item style="padding: 0">
+          <ion-label floating class="required">Booking Date</ion-label>
+          <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="bookingDate" name="bookingDate" required></ion-datetime>
+        </ion-item>
+        <ion-item style="padding: 0">
+          <ion-label floating class="required">Number of garments</ion-label>
+          <ion-input [(ngModel)]="numberOfGarments" name="numberOfGarments" type="number" required></ion-input>
+        </ion-item>
+        <ion-list radio-group [(ngModel)]="timeSlot" name="timeSlot" required>
+          <ion-label stacked class="required" text-wrap style="color:#999">Choose time slot</ion-label>
+          <ion-grid>
+            <ion-row>
+              <ion-col col-4>
+                <ion-card class="time-slot-card">
+                  <ion-item style="padding: 0" item-start class="ion-item-radio">
+                    <ion-label class="time-slot-card-label">8 to 10</ion-label>
+                    <ion-radio value="8 to 10"></ion-radio>
+                  </ion-item>
+                </ion-card>
+              </ion-col>
+              <ion-col col-4>
+                <ion-card class="time-slot-card">
+                  <ion-item style="padding: 0" item-end class="ion-item-radio">
+                    <ion-radio value="10 to 12"></ion-radio>
+                    <ion-label class="time-slot-card-label">10 to 12</ion-label>
+                  </ion-item>
+                </ion-card>
+              </ion-col>
+              <ion-col col-4>
+                <ion-card class="time-slot-card">
+                  <ion-item style="padding: 0" class="ion-item-radio">
+                    <ion-label class="time-slot-card-label">12 to 2</ion-label>
+                    <ion-radio value="12 to 2"></ion-radio>
+                  </ion-item>
+                </ion-card>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col col-4>
+                <ion-card class="time-slot-card">
+                  <ion-item style="padding: 0" class="ion-item-radio">
+                    <ion-label class="time-slot-card-label">2 to 4</ion-label>
+                    <ion-radio value="2 to 4"></ion-radio>
+                  </ion-item>
+                </ion-card>
+              </ion-col>
+              <ion-col col-4>
+                <ion-card class="time-slot-card">
+                  <ion-item style="padding: 0" class="ion-item-radio">
+                    <ion-label class="time-slot-card-label">4 to 6</ion-label>
+                    <ion-radio value="4 to 6"></ion-radio>
+                  </ion-item>
+                </ion-card>
+              </ion-col>
+              <ion-col col-4>
+                <ion-card class="time-slot-card">
+                  <ion-item style="padding: 0" class="ion-item-radio">
+                    <ion-label class="time-slot-card-label">6 to 8</ion-label>
+                    <ion-radio value="6 to 8"></ion-radio>
+                  </ion-item>
+                </ion-card>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <button ion-button type="submit" color="primary" full item-end (click)="saveBooking()" [disabled]="bookingForm.invalid">Book NOW</button>
+            </ion-row>
+          </ion-grid>
+        </ion-list>
+  </form>
+</ion-content>
+
+
+
+
+

@@ -1,0 +1,29 @@
+page-promo {
+    .ion-item-title{
+        background: linear-gradient(to bottom, #ffffff 0%, #c6d7ce 100%);
+    }
+
+    .ion-title-name{
+        text-align: center;
+        color: purple;
+        font-weight: 800;
+       
+    }
+    .label-discount{
+        text-align: end;
+        color: black;
+        font-weight: 600;
+    }
+
+    .label-discount-value{
+        color: red;
+        font-weight: 500!important;
+        text-align: right;
+        font-size: x-large!important;
+    }
+
+    .ion-card-promo{
+        border-radius: 8%;
+        box-shadow: 2px 2px 4px 3px #4e4d4d78;
+    }
+}

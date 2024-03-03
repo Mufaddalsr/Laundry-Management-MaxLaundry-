@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_API\\LaundryWeb_API.csproj": {}
+  },
+  "projects": {
+    "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_API\\LaundryWeb_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_API\\LaundryWeb_API.csproj",
+        "projectName": "LaundryWeb_API",
+        "projectPath": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_API\\LaundryWeb_API.csproj",
+        "packagesPath": "C:\\Users\\as\\.nuget\\packages\\",
+        "outputPath": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\as\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_DLL\\LaundryWeb_DLL.csproj": {
+                "projectPath": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_DLL\\LaundryWeb_DLL.csproj"
+              },
+              "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_MetaData\\LaundryWeb_MetaData.csproj": {
+                "projectPath": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_MetaData\\LaundryWeb_MetaData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_DLL\\LaundryWeb_DLL.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_DLL\\LaundryWeb_DLL.csproj",
+        "projectName": "LaundryWeb_DLL",
+        "projectPath": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_DLL\\LaundryWeb_DLL.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_MetaData\\LaundryWeb_MetaData.csproj": {
+                "projectPath": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_MetaData\\LaundryWeb_MetaData.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_MetaData\\LaundryWeb_MetaData.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_MetaData\\LaundryWeb_MetaData.csproj",
+        "projectName": "LaundryWeb_MetaData",
+        "projectPath": "D:\\Omega\\Laundry-mobile-ionic\\Code\\API\\LaundryWeb_API\\LaundryWeb_MetaData\\LaundryWeb_MetaData.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

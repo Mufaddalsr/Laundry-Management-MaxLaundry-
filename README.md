@@ -10,7 +10,7 @@ I have previous experience using git and github as i have worked in a group envi
 
 ### Use Case Diagram
 
-![uml-laundry-usecase-diagram](UML/Exported%20Images/Class.png)
+<!-- ![uml-laundry-usecase-diagram](UML/Exported%20Images/Class.png) -->
 
 ### Activity Diagram
 
@@ -35,7 +35,7 @@ In my experince the setup is diffuclut to follow
 
 ## 7. Continuous Delivery (GitHub Action)
 
-[CD](/.github/workflows/CD.yml) : workflow to deploy the build to my windowns server
+[CD](/.github/workflows/CD.yml) : workflow to deploy build to my windows server
 
 ## 8. Unit tests
 

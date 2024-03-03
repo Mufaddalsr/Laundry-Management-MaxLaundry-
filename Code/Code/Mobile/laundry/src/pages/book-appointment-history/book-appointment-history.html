@@ -1,0 +1,107 @@
+<!--
+  Generated template for the BookAppointmentHistoryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Booking histories</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-segment (ionChange)="segmentChanged($event)" [(ngModel)]="segmentSelected" class="segments">
+    <ion-segment-button value="bookingHistory">
+      View booking histories
+    </ion-segment-button>
+    <ion-segment-button value="viewOrder">
+      View order
+    </ion-segment-button>
+  </ion-segment>
+
+  <div class="" *ngIf="segmentSelected == 'bookingHistory'">
+    <div *ngIf="bookingHistoryList.length == 0">
+      <ion-item class="ion-item-title" text-wrap>
+        <ion-label item-star color="primary" class="item-bold" class="ion-title-name">Here,no booking histories
+        </ion-label>
+      </ion-item>
+    </div>
+    <div *ngIf="bookingHistoryList.length > 0">
+      <ion-card class="ion-card-promo">
+        <ion-item class="ion-item-title" text-wrap>
+          <ion-label item-star color="primary" class="item-bold" class="ion-title-name">Your booking histories
+          </ion-label>
+        </ion-item>
+        <ion-list *ngFor="let history of bookingHistoryList;let i = index" inset>
+          <ion-item class="item-history">
+            <ion-icon name="ios-calendar-outline" item-start small></ion-icon>
+            <ion-label item-start>Booking date</ion-label>
+            <h4 item-end>{{history.bookingDate | date:"dd/MM/yyyy"}}</h4>
+          </ion-item>
+          <ion-item class="item-history">
+            <ion-icon name="ios-timer-outline" item-start small></ion-icon>
+            <ion-label item-start>Time slot</ion-label>
+            <h4 item-end>{{history.timeSlot}}</h4>
+          </ion-item>
+          <ion-item class="item-history">
+            <ion-label item-start class="label-discount">Number of garments</ion-label>
+            <ion-label item-end class="label-discount-value">{{history.numberOfGarment}}</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+  </div>
+  <div class="" *ngIf="segmentSelected == 'viewOrder'">
+    <div *ngIf="orderList.length == 0">
+      <ion-item class="ion-item-title" text-wrap>
+        <ion-label item-star color="primary" class="item-bold" class="ion-title-name">Here,no order data</ion-label>
+      </ion-item>
+    </div>
+    <div *ngIf="orderList.length > 0">
+      <ion-card class="ion-card-promo">
+        <ion-item class="ion-item-title" text-wrap>
+          <ion-label item-star color="primary" class="item-bold" class="ion-title-name">Your orders</ion-label>
+        </ion-item>
+        <div *ngFor="let order of orderList;let i = index">
+          <ion-item-group>
+            <ion-item-divider color="light" class="label-orderDate">{{order.orderDate | date:"dd/MM/yyyy HH:mm:ss"}}
+            </ion-item-divider>
+            <ion-item class="item-history" *ngIf="order.status == 'Active' || order.status == 'Completed'">
+              <ion-icon name="ios-happy-outline" item-start small></ion-icon>
+              <ion-label item-start>Status</ion-label>
+              <h4 item-end>
+                <ion-badge class="status-title-success">{{order.status}}</ion-badge>
+              </h4>
+            </ion-item>
+            <ion-item class="item-history" *ngIf="order.status == 'Cancelled' || order.status != 'Active' ">
+              <ion-icon name="ios-sad" item-start small></ion-icon>
+              <ion-label item-start>Status</ion-label>
+              <h4 item-end>
+                <ion-badge class="status-title-error">{{order.status}}</ion-badge>
+              </h4>
+            </ion-item>
+            <ion-item class="item-history">
+              <ion-icon name="ios-list" item-start small></ion-icon>
+              <ion-label item-start>Total qty</ion-label>
+              <h4 item-end>{{order.totalQty}}</h4>
+            </ion-item>
+            <ion-item class="item-history">
+              <ion-icon name="ios-cash-outline" item-start small></ion-icon>
+              <ion-label item-start>Total advance</ion-label>
+              <h4 item-end>{{order.TotalAdvance}}</h4>
+            </ion-item>
+            <ion-item class="item-history">
+              <ion-label item-start class="label-discount">Total</ion-label>
+              <ion-label item-end class="label-discount-value">{{order.orderTotal}}</ion-label>
+            </ion-item>
+          </ion-item-group>
+        </div>
+      </ion-card>
+    </div>
+  </div>
+
+</ion-content>

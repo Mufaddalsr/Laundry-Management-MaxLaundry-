@@ -1,0 +1,40 @@
+<!--
+  Generated template for the PromoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Promotion</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="promotions">
+    <div *ngIf="promotions.length == 0">
+        <ion-item class="ion-item-title" text-wrap>
+            <ion-label item-star color="primary" class="item-bold" class="ion-title-name">Here,no promotion data</ion-label>
+        </ion-item>
+    </div>
+    <div *ngIf="promotions.length > 0">
+    <ion-card *ngFor="let promo of promotions;let i = index" class="ion-card-promo">
+      <ion-item class="ion-item-title" text-wrap>
+          <ion-label item-star color="primary" class="item-bold" class="ion-title-name">{{promo.companyName}}</ion-label>
+      </ion-item>
+      <ion-item text-wrap>
+        <ion-icon name="calendar" item-start large></ion-icon>
+        <h2>{{promo.promoName}}</h2>
+        <p>{{promo.startDate | date:"dd/MM/yyyy hh:mm:ss"}} <b>To</b> <br> {{promo.endDate | date:"dd/MM/yyyy hh:mm:ss"}}</p>
+      </ion-item>
+      <ion-item text-wrap>
+        <ion-label item-start class="label-discount">Discount Per</ion-label>
+        <ion-label item-end  class="label-discount-value">{{promo.discountPer}}</ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+  </div>
+</ion-content>

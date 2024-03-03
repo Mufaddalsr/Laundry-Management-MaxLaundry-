@@ -1,0 +1,20 @@
+page-book-appointment {
+    .time-slot-card{
+        width: 115px;
+    }
+
+    .time-slot-card-label{
+        text-align: center;
+    }
+
+    ion-grid{
+        padding: 0px!important;
+    }
+
+    .ion-item-radio{
+        padding: 0;
+        background: linear-gradient(to bottom,  #ffffff 0%, #dfdddd 100%);
+        color: black;
+        font-weight: 800;
+    }
+}

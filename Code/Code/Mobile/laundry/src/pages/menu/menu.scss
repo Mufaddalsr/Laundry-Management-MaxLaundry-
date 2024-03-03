@@ -1,0 +1,25 @@
+page-menu {
+    .transparent-card{
+      border: none !important;
+      background: transparent !important;
+      box-shadow: none;
+    }
+  
+    .transparent-card .item{
+      border: none !important;
+      background: transparent !important;
+      box-shadow: none;
+      color: white !important;
+      font-size: 1.3em;
+    }
+  
+    .transparent-card .label{
+      text-align: center;
+      color: whitesmoke !important;
+    }
+  
+    .menu-side{
+      background-color: $toolbar-background;
+    }
+  }
+  

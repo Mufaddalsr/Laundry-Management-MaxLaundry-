@@ -1,0 +1,156 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+@font-face {
+  font-family: 'Cambria';
+  src: url('../fonts/Cambria.eot') format('embedded-opentype'), url('../fonts/Cambria.woff') format('woff'), url('../fonts/Cambria.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* label required */
+.required:after {
+  content: " *";
+  font-weight: bold;
+  color: red;
+}
+
+/* Button background color */
+.btn-common{
+  background: linear-gradient(to bottom, #d3addb 0%, #136c40 100%);
+}
+
+/* Toolbar bottom line */
+.header {
+    border-bottom: 3px solid #0b3621;
+}
+
+/* For menu */
+.menu {
+    width: 109px;
+    height: 109px;
+    float: left;
+}
+header .title {
+    width: 88%;
+    float: left;
+    text-align: center;
+    margin: 12px 0;
+}
+.header-inner {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.menu .menu-toggle {
+    display: block;
+    text-align: center;
+}
+header .title span {
+    display: block;
+    font-size: 64px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: normal;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	display: block;
+	transition: 0.3s;
+	text-transform: capitalize;
+}
+
+.sidenav a:hover {
+  color: #03a4bd;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* START toastr */
+.toast-error{
+  .toast-wrapper {
+    background: color($colors, danger);
+    text-align: center;
+  }
+};
+
+.toast-success{
+  .toast-wrapper {
+    background: $toastr-success;
+    text-align: center;
+  }
+};
+/* END toastr */
+
+/* START datepicker */
+.picker-columns,
+.picker-toolbar,
+.picker-md .picker-wrapper,
+.picker-md .picker-toolbar
+ {
+ background: white;
+ background-size: cover !important;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+}
+.picker-md .picker-prefix,
+.picker-md .picker-suffix,
+.picker-md .picker-opt.picker-opt-selected {
+ color: map-get($colors,primary);
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.picker-md .picker-opt {
+   color: rgb(199, 198, 198);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.picker-md .picker-button,
+.picker-md .picker-button.activated {
+ color: map-get($colors,primary);
+ font-weight: bold;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* END datepicker */
+
+.my-checkbox {
+  display: flex;
+  align-items: center;
+}

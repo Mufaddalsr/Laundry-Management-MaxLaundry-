@@ -1,0 +1,32 @@
+page-profile {
+    .card {
+        margin: 0 auto;
+        margin: -13px -16px 0px -16px;
+        .header {
+            height: 200px;
+            background: linear-gradient(to bottom, #ffffff 0%, #6d9480 100%);
+    
+            .avatar {
+                width: 160px;
+                height: 160px;
+                position: relative;
+                margin: 0 auto;
+    
+                img {
+                    display: block;
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom: calc(-1*(80px + 4px));
+                    border: 2px solid #228051;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+    .card-body {
+        background-color: #ffffff;
+        padding: 10px;
+        height: auto;
+        overflow: hidden;
+    }
+}
