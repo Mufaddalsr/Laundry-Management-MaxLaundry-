@@ -31,7 +31,7 @@ In my experince the setup is diffuclut to follow
 
 I wasnt able the configer Sonarcube in my project. I instated used sonarCloud as an alternative integarted with github workflow pipelines
 
-![first-scan](ScreenShots/Sonarcloud first_analysis 2024-03-03 at 10.57.44 AM.png)
+![first-scan](ScreenShots/Sonarcloud%20first_analysis%202024-03-03%20at%2010.57.44 AM.png)
 First Scan
 
 
