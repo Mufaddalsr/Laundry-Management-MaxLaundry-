@@ -38,7 +38,7 @@ First Scan
 
 ## 5. Clean Code Development
 
-[Personal-CCD](/.github/workflows/CICD.yml): find the the pdf here.
+[Personal-CCD cheat sheet](/CCD/CCD%20cheat%20sheet.pdf): find the the pdf here.
 
 ![File-directory](ScreenShots/CCD_1%202024-03-07%20at%2010.08.04 AM.png)
 1. I have Clear Structure to my project, it is also humanly understandable where you can find the component
