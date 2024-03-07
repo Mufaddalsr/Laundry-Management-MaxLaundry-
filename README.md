@@ -38,19 +38,19 @@ First Scan
 
 ## 5. Clean Code Development
 
-[Personal-CCD](/.github/workflows/CICD.yml)
+[Personal-CCD](/.github/workflows/CICD.yml): find the the pdf here.
 
 ![File-directory](ScreenShots/CCD_1%202024-03-07%20at%2010.08.04 AM.png)
 1. I have Clear Structure to my project, it is also humanly understandable where you can find the component
 
 ![CCD_2](ScreenShots/CCD_2%202024-03-07%20at%2010.14.27 AM.png)
-1. This is my API Services and it has proper meaningful name to understand the use of it with clear setions using comments 
+2. This is my API Services and it has proper meaningful name to understand the use of it with clear setions using comments 
 
 ![CCD_3](ScreenShots/CCD_3%202024-03-07%20at%2010.23.27 AM.png)
-1. Using the IDE the code has whitespace and formatting depending on the language used.
-1. I like to breakdown my code into smaller bits(components) as it is easier to work with, but it also increaes the number of file i need to make and remember.
+3. Using the IDE the code has whitespace and formatting depending on the language used.
+4. I like to breakdown my code into smaller bits(components) as it is easier to work with, but it also increaes the number of file i need to make and remember.
 
-1. usually I have some important configuration documentment if i refer to them in the future like if i a using a open source library for RFID to read tags there are ports and device config required based on the RFID reader device 
+5. usually I have some important configuration documentment if i refer to them in the future like if i a using a open source library for RFID to read tags there are ports and device config required based on the RFID reader device 
 
 ## 6. Build management
 
