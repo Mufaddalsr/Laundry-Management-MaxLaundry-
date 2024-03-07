@@ -48,9 +48,10 @@ First Scan
 
 ![CCD_3](ScreenShots/CCD_3%202024-03-07%20at%2010.23.27 AM.png)
 3. Using the IDE the code has whitespace and formatting depending on the language used.
-4. I like to breakdown my code into smaller bits(components) as it is easier to work with, but it also increaes the number of file i need to make and remember.
 
-5. usually I have some important configuration documentment if i refer to them in the future like if i a using a open source library for RFID to read tags there are ports and device config required based on the RFID reader device 
+4. I like to breakdown my code into smaller bits(components) as it is easier to work with, but it also increases the number of file i need to make and remember.
+
+5. usually I have some important configuration mentioned in a document. if i need refer to them in the future like using a open source library for RFID to read tags there are ports and device config required based on the manufacturer device 
 
 ## 6. Build management
 
