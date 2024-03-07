@@ -1,4 +1,4 @@
-name: ProjectPipeLine
+name: SonarCloud-Metrics
 
 on:
   workflow_dispatch:
