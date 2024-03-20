@@ -74,9 +74,11 @@ These are the metrics listed below :
 
 [CI/CD](/.github/workflows/CICD.yml) : workflow to deploy build to my windows server
 
+[All workflows](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/actions)
+
 ## 8. Unit tests
 
-## 9. IDE
+## 9. IDE (VS code)
 
 I have been using VS code as the main IDE for all types of development. It provides extensions which makes it easy to use.
 Provides intelligent code completion, suggestions, and auto-completion, Syntax Highlighting, Built-in Git Integration, Integrated Terminal, Debugging.
@@ -88,11 +90,16 @@ Fav ShortCut
 1. option+enter : shows actions for the current context
 1. cmd+ : Toggle the integrated terminal.
 
-## 10. DSL
+## 10. Domain Specific Language (DSL)
 
 ## 11. Functional Programming
 
-[Code](/functionalProgramming/main.fs): find The code here.
+I have written a small python program in the context of this project to demonstrate the concept of functional programming.
+
+[Code](/functionalProgramming/main.py): find The code here.
+
+- Side-Effect-Free Functions : add_item, remove_item, list_items function is side effect free function which performs curd opertions.
+[Fuctional Programming](https://github.com/ShrutiPatil2223/Student-Management-System/blob/main/functionalProgramming/main.py#L4 )
 
 i have implemented a basic 
 
