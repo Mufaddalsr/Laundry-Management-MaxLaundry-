@@ -38,8 +38,6 @@ First Scan
 
 These are the metrics listed below : 
 
-https://sonarcloud.io/summary/overall?id=Mufaddalsr_Laundry-Management-MaxLaundry
-
 - Quality Gate Status [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Mufaddalsr_Laundry-Management-MaxLaundry&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Mufaddalsr_Laundry-Management-MaxLaundry)
 
 - Bugs [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Mufaddalsr_Laundry-Management-MaxLaundry&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Mufaddalsr_Laundry-Management-MaxLaundry)
@@ -72,9 +70,7 @@ https://sonarcloud.io/summary/overall?id=Mufaddalsr_Laundry-Management-MaxLaundr
 
 5. usually I have some important configuration mentioned in a document. if i need refer to them in the future like using a open source library for RFID to read tags there are ports and device config required based on the manufacturer device 
 
-## 6. Build management
-
-## 7. Continuous Delivery (GitHub Action)
+## 6.& 7. Build and CI/CD (GitHub Action)
 
 [CI/CD](/.github/workflows/CICD.yml) : workflow to deploy build to my windows server
 
@@ -82,13 +78,15 @@ https://sonarcloud.io/summary/overall?id=Mufaddalsr_Laundry-Management-MaxLaundr
 
 ## 9. IDE
 
-I have been using VS code as the main IDE for all types of development. It provides extensions which makes it easy to use 
+I have been using VS code as the main IDE for all types of development. It provides extensions which makes it easy to use.
+Provides intelligent code completion, suggestions, and auto-completion, Syntax Highlighting, Built-in Git Integration, Integrated Terminal, Debugging.
 
 Fav ShortCut
-1. crt+f : for fast search and getting a count for how many places we have used function etc..
+1. cmd+f : for fast search and getting a count for how many places we have used function etc..
 1. shift+option+f : quickly format the code structure
 1. command+shift+F8 : View Breakpoints.
 1. option+enter : shows actions for the current context
+1. cmd+ : Toggle the integrated terminal.
 
 ## 10. DSL
 
