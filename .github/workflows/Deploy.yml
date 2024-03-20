@@ -1,4 +1,4 @@
-name: CD
+name: Deploy
 
 on:
   workflow_dispatch:
@@ -11,20 +11,6 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 14
-
-      - name: Install Dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Build React App
-        run: npm run build
-
       - name: Deploy to IIS
         uses: appleboy/rsync-action@v2
         with:
