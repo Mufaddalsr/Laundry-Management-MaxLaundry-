@@ -13,7 +13,7 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '4.8'  # Adjust .NET version as needed
+          dotnet-version: '4.8.0'  # Adjust .NET version as needed
 
       - name: Build and Test
         run: |
