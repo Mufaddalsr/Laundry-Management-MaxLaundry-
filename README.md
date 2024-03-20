@@ -96,10 +96,13 @@ Fav ShortCut
 
 I have written a small python program in the context of this project to demonstrate the concept of functional programming.
 
-[Code](/functionalProgramming/main.py): find The code here.
+[Find the code here.](/functionalProgramming/main.py)
 
-- Side-Effect-Free Functions : add_item, remove_item, list_items function is side effect free function which performs curd opertions.
-[Fuctional Programming](https://github.com/ShrutiPatil2223/Student-Management-System/blob/main/functionalProgramming/main.py#L4 )
+- [Side-Effect-Free Functions](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/blob/main/functionalProgramming/main.py#L4) : add_item, remove_item, list_items function is side effect free function which performs curd opertions.
 
-i have implemented a basic 
+- [Closure](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/blob/main/functionalProgramming/main.py#L43) : express_process function is an example of closure. create_order function has taken an anonymous and applied it. 
+
+- [Higher-order function](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/blob/main/functionalProgramming/main.py#L26) : The create_order function is a higher-order function because it takes another function (func) as an argument and applies it to each element.
+
+- [Functions as Parameters and Return Values](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/blob/main/functionalProgramming/main.py#L4) : add_item, remove_item, create_order takes in an argument and returns a result. This demonstrates the use of functions as return values.
 
