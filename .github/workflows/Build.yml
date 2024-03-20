@@ -15,7 +15,7 @@ jobs:
         with:
           dotnet-version: '4.8.0'  # Adjust .NET version as needed
 
-      - name: Build and Test
+      - name: Build
         run: |
           dotnet restore
           dotnet build --configuration Release
