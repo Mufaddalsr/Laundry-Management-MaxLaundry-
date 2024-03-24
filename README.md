@@ -88,7 +88,7 @@ I have written 4 small unit tests. They are both based on API CRUD Operation.
 
 4. Delete_Employee_Success()
 
-[Screenshot](/ScreenShots//UnitTest%20Screenshot%202024-03-24%20at%2012.28.39 PM.png)
+![Unit test Screenshot](/ScreenShots//UnitTest%20Screenshot%202024-03-24%20at%2012.28.39 PM.png)
 
 ## 9. IDE (VS code)
 
