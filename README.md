@@ -72,9 +72,13 @@ These are the metrics listed below :
 
 ## 6.& 7. Build and CI/CD (GitHub Action)
 
-[CI/CD](/.github/workflows/CICD.yml) : workflow to deploy build to my windows server
+[SonarCloud-Metrics](/.github/workflows/SonarCloud-Metrics.yml) : workflow to get sonarCould matrics from the main branch
 
-[All workflows](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/actions)
+[Build/Build2](/.github/workflows/Build2.yml) : workflow to build the Project
+
+[Deploy](/.github/workflows/Deploy.yml) : workflow to deploy build to my windows server (errors)
+
+[All workflows Runs](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/actions)
 
 ## 8. Unit tests
 I have imported XUnit module for unit testing. Asserting method is used to check whether actual value from database and the expected values are equal or not.
