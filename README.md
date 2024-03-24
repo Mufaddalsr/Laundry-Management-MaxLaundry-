@@ -71,6 +71,8 @@ These are the metrics listed below :
 5. usually I have some important configuration mentioned in a document. if i need refer to them in the future like using a open source library for RFID to read tags there are ports and device config required based on the manufacturer device 
 
 ## 6.& 7. Build and CI/CD (GitHub Action)
+I have used GitHub-Actions for the build and Continuous Integration/Continuous Deployment.
+i have made seperate workflows for each task that i want to accomplish.
 
 [SonarCloud-Metrics](/.github/workflows/SonarCloud-Metrics.yml) : workflow to get sonarCould matrics from the main branch
 
