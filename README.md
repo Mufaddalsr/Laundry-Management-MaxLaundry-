@@ -77,6 +77,18 @@ These are the metrics listed below :
 [All workflows](https://github.com/Mufaddalsr/Laundry-Management-MaxLaundry/actions)
 
 ## 8. Unit tests
+I have imported XUnit module for unit testing. Asserting method is used to check whether actual value from database and the expected values are equal or not.
+I have written 4 small unit tests. They are both based on API CRUD Operation. 
+
+1. GetAll_GarmnetType_Success()
+
+2. GetById_GarmnetType()
+
+3. PostNew_GarmnetType()
+
+4. Delete_Employee_Success()
+
+[Screenshot](/ScreenShots//UnitTest%20Screenshot%202024-03-24%20at%2012.28.39 PM.png)
 
 ## 9. IDE (VS code)
 
