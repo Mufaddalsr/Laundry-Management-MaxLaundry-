@@ -11,7 +11,7 @@ I have previous experience using git and github as i have worked in a group envi
 
 ### Use Case Diagram
 This Use Case Diagram shows that interaction between actors
-<!-- ![uml-laundry-usecase-diagram](UML/Exported%20Images/Class.png) -->
+![uml-laundry-usecase-diagram](UML/Exported%20Images/usecase.png)
 
 ### Activity Diagram
 This Activity Diagram shows the workflow of the system.
