@@ -24,7 +24,7 @@ This Activity Diagram shows the workflow of the system.
 
 ## 3. Domain Driven Design DDD
 
-![ddd-contextmapping-diagram](DDD/Context%20Mapping1.png)
+![ddd-contextmapping-diagram](DDD/Context%20Mapping.pdf)
 
 ![ddd-coreDoamin-diagram](DDD/ddd.png)
 
