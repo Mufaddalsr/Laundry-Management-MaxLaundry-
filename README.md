@@ -24,17 +24,21 @@ This Activity Diagram shows the workflow of the system.
 
 ## 3. Domain Driven Design DDD
 
-![dd-coreDoamin-diagram](DDD/ddd.png)
+![ddd-contextmapping-diagram](DDD/Context%20Mapping.png)
+
+![ddd-coreDoamin-diagram](DDD/ddd.png)
+
+<!-- ![dd-coreDoamin-diagram](DDD/ddd.png) -->
 
 ## 4. Metrics (SonarCloud)
 
 I have finished setting up Sonarcube in docker and config into the project 
-In my experince the setup is diffuclut to follow
+In my experince the setup is diffuclut to follow.
 
-I wasnt able the configure Sonarcube in my project. I instated used sonarCloud as an alternative integarted with github workflow pipelines
+I wasnt able the configure Sonarcube in my project. I instated used sonarCloud as an alternative integarted with github workflow pipelines.
 
-![first-scan](ScreenShots/Sonarcloud%20first_analysis%202024-03-03%20at%2010.57.44 AM.png)
 First Scan
+![first-scan](ScreenShots/Sonarcloud%20first_analysis%202024-03-03%20at%2010.57.44 AM.png)
 
 These are the metrics listed below : 
 
