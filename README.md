@@ -114,6 +114,11 @@ Fav ShortCut
 
 ## 10. Domain Specific Language (DSL)
 
+In my project, DSL file is related to the the project.
+I have written small dsl program which does the operation realted to laundry processing. To call the DSL file, I have written a python program as an interpereter to call the DSL file.
+
+Here, is the attached [DSL file](/DSL/laundry.dsl) and [Interepreter file](/DSL/interpreter.py)
+
 ## 11. Functional Programming
 
 I have written a small python program in the context of this project to demonstrate the concept of functional programming.
